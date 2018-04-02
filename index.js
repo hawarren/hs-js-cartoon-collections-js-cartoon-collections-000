@@ -1,15 +1,19 @@
 function dwarfRollCall(dwarves) {
+// <<<<<<< HEAD
   
-  var message = "";
+  let message = "";
     var lineNumber = "";
     var nextOne = "";
   for (var i = 0; i < dwarves.length; i++)
   {
     lineNumber = i + 1;
     nextOne = lineNumber + ". " + dwarves[i];
-    message = message + nextOne + " ";
+    message += nextOne + " ";
   }
   return message;
+ // =======
+
+// >>>>>>> 482eeee02985e51d9a88c329932979293e474bed
 }
 
 function summonCaptainPlanet(planeteerCalls){
