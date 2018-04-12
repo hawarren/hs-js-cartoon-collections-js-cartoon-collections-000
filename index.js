@@ -12,7 +12,16 @@ function dwarfRollCall(dwarves) {
   }
   return message;
  // =======
+<<<<<<< HEAD
 
+=======
+  for (i = 0; i < dwarves.length; i++)
+  {
+    var lineNumber = i + 1;
+    var nextOne = i +"." + dwarves[i];
+    var message =+ nextOne ;
+  }
+>>>>>>> 20e56f3283800e3a4374b8a8df862f07b792a9c4
 // >>>>>>> 482eeee02985e51d9a88c329932979293e474bed
 }
 
@@ -85,4 +94,15 @@ var cheeseNames = ["cheddar", "gouda", "camembert"] ;
  // if we got this far jig is up but no cheeses matched
  return "no cheese!";
    
+}
+function wordsWithB(words){
+  var bWords = [] ;
+  for (i = 0; i < words.length; i++; )
+  {
+    if (words[i].startsWith('b'))
+    {
+      bWords.push(words[i]);
+    }
+      }
+  return bwords
 }
