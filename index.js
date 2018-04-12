@@ -12,9 +12,7 @@ function dwarfRollCall(dwarves) {
   }
   return message;
  // =======
-<<<<<<< HEAD
 
-=======
   for (i = 0; i < dwarves.length; i++)
   {
     var lineNumber = i + 1;
